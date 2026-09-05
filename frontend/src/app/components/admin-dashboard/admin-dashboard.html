@@ -1,0 +1,116 @@
+<div class="page-container page-wide">
+    <div class="page-header">
+        <div class="page-header-text">
+            <span class="eyebrow">Admin</span>
+            <h2>All Expense Transactions</h2>
+        </div>
+        <button class="secondary" (click)="goToReports()">View Reports Dashboard</button>
+    </div>
+
+    <div class="filters">
+        <div>
+            <label>Status</label>
+            <select [(ngModel)]="statusFilter">
+                <option value="">All</option>
+                <option value="PendingApproval">Pending Approval</option>
+                <option value="ManagerApproved">Manager Approved</option>
+                <option value="Rejected">Rejected</option>
+                <option value="Paid">Paid</option>
+            </select>
+        </div>
+        <div>
+            <label>From Date</label>
+            <input type="date" [(ngModel)]="fromDate" />
+        </div>
+        <div>
+            <label>To Date</label>
+            <input type="date" [(ngModel)]="toDate" />
+        </div>
+        <div class="filter-actions">
+            <button (click)="applyFilters()">Apply Filters</button>
+            <button class="secondary" (click)="clearFilters()">Clear</button>
+        </div>
+    </div>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <div class="table-scroll" *ngIf="forms.length > 0">
+        <table>
+            <thead>
+                <tr>
+                    <th>Form ID</th>
+                    <th>Employee</th>
+                    <th>Manager</th>
+                    <th>Status</th>
+                    <th>Total Amount</th>
+                    <th>Submitted</th>
+                    <th>Last Updated</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let form of forms">
+                    <td>#{{ form.formId }}</td>
+                    <td>{{ form.employeeName }}</td>
+                    <td>{{ form.managerName }}</td>
+                    <td><span class="status-badge" [ngClass]="'status-' + form.status">{{ form.status }}</span></td>
+                    <td>{{ form.totalAmount | appCurrency: form.currencyId }}</td>
+                    <td>{{ form.submissionDate | date:'mediumDate' }}</td>
+                    <td>{{ form.lastUpdatedDate | date:'mediumDate' }}</td>
+                    <td><button class="secondary" (click)="viewForm(form)">View</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="modal-overlay" *ngIf="selectedForm" (click)="closeView()">
+        <div class="modal-dialog" (click)="$event.stopPropagation()">
+            <h3>Expense Form #{{ selectedForm.formId }}</h3>
+
+            <dl class="review-meta">
+                <div>
+                    <dt>Date</dt>
+                    <dd>{{ selectedForm.submissionDate | date:'mediumDate' }}</dd>
+                </div>
+                <div>
+                    <dt>Manager ID</dt>
+                    <dd>{{ selectedForm.managerId }}</dd>
+                </div>
+                <div>
+                    <dt>Status</dt>
+                    <dd><span class="status-badge" [ngClass]="'status-' + selectedForm.status">{{ selectedForm.status }}</span></dd>
+                </div>
+            </dl>
+
+            <p class="error" *ngIf="selectedForm.status === 'Rejected'">
+                <strong>Rejection Reason:</strong> {{ selectedForm.rejectionReason }}
+            </p>
+
+            <div class="table-scroll" *ngIf="selectedForm.expenses?.length > 0">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Purpose</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let expense of selectedForm.expenses">
+                            <td>{{ expense.purpose }}</td>
+                            <td>{{ expense.amount | appCurrency: selectedForm.currencyId }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="actions-row align-right">
+                <button class="secondary" (click)="closeView()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="empty-state" *ngIf="forms.length === 0 && !errorMessage">
+        <strong>No results</strong>
+        No expense forms match your current filters.
+    </div>
+</div>

@@ -1,0 +1,67 @@
+<div class="page-container page-wide">
+    <div class="page-header">
+        <div class="page-header-text">
+            <span class="eyebrow">Employee</span>
+            <h2>My Expense Forms</h2>
+        </div>
+        <button (click)="goToNewForm()">+ New Expense Form</button>
+    </div>
+
+    <div class="filters">
+        <div>
+            <label>Status</label>
+            <select [(ngModel)]="statusFilter">
+                <option value="">All</option>
+                <option value="PendingApproval">Pending Approval</option>
+                <option value="Rejected">Rejected</option>
+                <option value="ManagerApproved">Manager Approved</option>
+                <option value="Paid">Paid</option>
+            </select>
+        </div>
+        <div>
+            <label>From Date</label>
+            <input type="date" [(ngModel)]="fromDate"/>
+        </div>
+        <div>
+            <label>To Date</label>
+            <input type="date" [(ngModel)]="toDate"/>
+        </div>
+        <div class="filter-actions">
+            <button (click)="applyFilters()">Apply Filters</button>
+            <button class="secondary" (click)="clearFilters()">Clear</button>
+        </div>
+    </div>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <div class="table-scroll" *ngIf="forms.length > 0">
+        <table>
+            <thead>
+                <tr>
+                    <th>Form ID</th>
+                    <th>Status</th>
+                    <th>Total Amount</th>
+                    <th>Submitted</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let form of forms">
+                    <td>#{{ form.formId }}</td>
+                    <td><span class="status-badge" [ngClass]="'status-'+form.status">{{ form.status }}</span></td>
+                    <td>{{ form.totalAmount | appCurrency: form.currencyId }}</td>
+                    <td>{{form.submissionDate | date:'mediumDate'}}</td>
+                    <td>
+                        <button class="secondary" (click)="goToView(form.formId)">Preview</button>
+                        <button *ngIf="isEditable(form.status)" (click)="goToEdit(form.formId)">Edit</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="empty-state" *ngIf="forms.length === 0 && !errorMessage">
+        <strong>No expense forms yet</strong>
+        You haven't submitted any expense forms yet — start with "New Expense Form" above.
+    </div>
+</div>

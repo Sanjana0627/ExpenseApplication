@@ -1,0 +1,119 @@
+<div class="page-container">
+    <button type="button" class="back-link" (click)="goBackToList()">← Back to My Forms</button>
+
+    <div class="page-header">
+        <div class="page-header-text">
+            <span class="eyebrow">Expense form</span>
+            <h2>{{ viewOnly ? 'View Expense Form' : (formId ? 'Edit Expense Form' : 'Submit Expense Form') }}</h2>
+        </div>
+    </div>
+
+    <div class="error" *ngIf="rejectionReason">
+        <strong>Rejected Reason:</strong> {{ rejectionReason }}
+    </div>
+
+    <form #form="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-section">
+            <div class="field-row">
+                <div>
+                    <label>Currency *</label>
+                    <select [(ngModel)]="currencyId" name="currencyId" [disabled]="viewOnly" required>
+                        <option value="1">TL</option>
+                        <option value="2">EUR</option>
+                        <option value="3">USD</option>
+                        <option value="4">PKR</option>
+                        <option value="5">INR</option>
+                        <option value="6">AED</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="expense-card" *ngFor="let expense of expenses; let i = index">
+            <div class="expense-card-header">
+                <span class="expense-card-title">Expense {{ i + 1 }}</span>
+                <button type="button" class="danger" *ngIf="!viewOnly && expenses.length > 1" (click)="removeExpenseLine(i)">Remove</button>
+            </div>
+
+            <div class="field-wrap">
+                <label>Purpose *</label>
+                <span class="field-hint" [class.show]="submitted && !expense.purpose.trim()">Fill this in</span>
+                <input type="text" placeholder="What was this expense for?" [(ngModel)]="expense.purpose" [name]="'purpose' + i"
+                       [class.invalid]="submitted && !expense.purpose.trim()"
+                       [disabled]="viewOnly" required/>
+            </div>
+
+            <div class="expense-card-grid">
+                <div class="field-wrap">
+                    <label>Date *</label>
+                    <span class="field-hint" [class.show]="submitted && (!expense.expenseDate || expense.expenseDate > today)">
+                        {{ expense.expenseDate > today ? "Can't be in the future" : 'Fill this in' }}
+                    </span>
+                    <input type="date" [max]="today" [(ngModel)]="expense.expenseDate" [name]="'date' + i"
+                           [class.invalid]="submitted && (!expense.expenseDate || expense.expenseDate > today)"
+                           [disabled]="viewOnly" required/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>Category *</label>
+                    <span class="field-hint" [class.show]="submitted && !expense.category">Fill this in</span>
+                    <select [(ngModel)]="expense.category" [name]="'category' + i"
+                            [class.invalid]="submitted && !expense.category"
+                            [disabled]="viewOnly" required>
+                        <option value="" disabled>Select category</option>
+                        <option value="Taxi">Taxi</option>
+                        <option value="Food">Food</option>
+                        <option value="Gas">Gas</option>
+                        <option value="Travel">Travel</option>
+                        <option value="Accommodation">Accommodation</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="field-wrap">
+                    <label>Amount *</label>
+                    <span class="field-hint" [class.show]="submitted && !(expense.amount > 0)">
+                        {{ expense.amount < 0 ? 'Amount cannot be negative' : 'Fill this in' }}
+                    </span>
+                    <input type="number" placeholder="0.00" [(ngModel)]="expense.amount" [name]="'amount' + i"
+                           [class.invalid]="submitted && !(expense.amount > 0)"
+                           [disabled]="viewOnly" required/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>Vendor / Merchant *</label>
+                    <span class="field-hint" [class.show]="submitted && !expense.vendorName.trim()">Fill this in</span>
+                    <input type="text" placeholder="e.g. Uber, Shell" [(ngModel)]="expense.vendorName" [name]="'vendor' + i"
+                           [class.invalid]="submitted && !expense.vendorName.trim()"
+                           [disabled]="viewOnly" required/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>Payment Method *</label>
+                    <span class="field-hint" [class.show]="submitted && !expense.paymentMethod">Fill this in</span>
+                    <select [(ngModel)]="expense.paymentMethod" [name]="'paymentMethod' + i"
+                            [class.invalid]="submitted && !expense.paymentMethod"
+                            [disabled]="viewOnly" required>
+                        <option value="" disabled>Select method</option>
+                        <option value="Cash">Cash</option>
+                        <option value="CompanyCard">Company Card</option>
+                        <option value="PersonalCard">Personal Card</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions-row" *ngIf="!viewOnly">
+            <button type="button" class="secondary" (click)="addExpenseLine()">+ Add expense line</button>
+        </div>
+        <div class="total-row">
+            <span class="total-label">Total amount</span>
+            <span class="total-value">{{ totalAmount | appCurrency: currencyId }}</span>
+        </div>
+        <div class="actions-row" *ngIf="!viewOnly">
+            <button type="submit" [disabled]="!isEditable">{{ formId ? 'Update Expense Form' : 'Submit Expense Form' }}</button>
+        </div>
+        <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+        <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+    </form>
+</div>

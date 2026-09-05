@@ -1,0 +1,56 @@
+<div class="page-container page-wide">
+    <div class="page-header">
+        <div class="page-header-text">
+            <span class="eyebrow">Accountant</span>
+            <h2>Expenses to be Paid</h2>
+            <p class="subtext">Forms approved by managers, ready for payment.</p>
+        </div>
+    </div>
+
+    <div class="filters">
+        <div>
+            <label>From Date</label>
+            <input type="date" [(ngModel)]="fromDate" />
+        </div>
+        <div>
+            <label>To Date</label>
+            <input type="date" [(ngModel)]="toDate" />
+        </div>
+        <div class="filter-actions">
+            <button (click)="applyFilters()">Apply Filters</button>
+            <button class="secondary" (click)="clearFilters()">Clear</button>
+        </div>
+    </div>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <div class="table-scroll" *ngIf="forms.length > 0">
+        <table>
+            <thead>
+                <tr>
+                    <th>Form ID</th>
+                    <th>Employee</th>
+                    <th>Total Amount</th>
+                    <th>Submitted</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let form of forms">
+                    <td>#{{ form.formId }}</td>
+                    <td>{{ form.employeeName }}</td>
+                    <td>{{ form.totalAmount | currency }}</td>
+                    <td>{{ form.submissionDate | date: 'mediumDate' }}</td>
+                    <td>
+                        <button (click)="goToReview(form.formId)">Review</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="empty-state" *ngIf="forms.length === 0 && !errorMessage">
+        <strong>Nothing to pay</strong>
+        No expense forms are currently awaiting payment.
+    </div>
+</div>

@@ -1,0 +1,58 @@
+<div class="page-container page-narrow" *ngIf="form">
+  <button type="button" class="back-link" (click)="goBack()">← Back to Payments</button>
+
+  <div class="page-header">
+    <div class="page-header-text">
+      <span class="eyebrow">Review</span>
+      <h2>Expense Form #{{ form.formId }}</h2>
+    </div>
+  </div>
+
+  <dl class="review-meta">
+    <div>
+      <dt>Submitted by</dt>
+      <dd>{{ form.employeeName }}</dd>
+    </div>
+    <div>
+      <dt>Status</dt>
+      <dd><span class="status-badge" [ngClass]="'status-' + form.status">{{ form.status }}</span></dd>
+    </div>
+  </dl>
+
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Category</th>
+          <th>Purpose</th>
+          <th>Vendor</th>
+          <th>Payment</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let expense of form.expenses">
+          <td>{{ expense.expenseDate | date: 'mediumDate' }}</td>
+          <td>{{ expense.category }}</td>
+          <td>{{ expense.purpose }}</td>
+          <td>{{ expense.vendorName }}</td>
+          <td>{{ expense.paymentMethod }}</td>
+          <td>{{ expense.amount | appCurrency: form.currencyId }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="total-row">
+    <span class="total-label">Total</span>
+    <span class="total-value">{{ form.totalAmount | appCurrency: form.currencyId }}</span>
+  </div>
+
+  <div class="actions-row" *ngIf="form.status === 'ManagerApproved'">
+    <button (click)="pay()">Mark as Paid</button>
+  </div>
+
+  <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+</div>

@@ -1,0 +1,150 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 28px;
+  background-color: #ffffff;
+  color: #16181d;
+  border-bottom: 1px solid #e3e6ea;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+/* Brand */
+.nav-logo{
+  height:40px;
+  width:auto;
+  object-fit: contain;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+}
+
+.nav-logo-mark {
+  width: 28px;
+  height: 28px;
+  color: hsl(353, 82%, 56%);
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-links a {
+  color: #4b5563;
+  text-decoration: none;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-links a:hover {
+  color: #16181d;
+  background-color: #f3f4f7;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  color: hsl(353, 82%, 56%);
+  background-color: hsl(353, 82%, 96%);
+}
+
+/* User area */
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: transparent;
+  color: #4b5563;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-btn:hover {
+  background-color: #f3f4f7;
+  color: #16181d;
+}
+
+.nav-user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  text-align: right;
+}
+
+.nav-user-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #16181d;
+}
+
+.nav-user-role {
+  font-size: 11px;
+  color: #8a93a3;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.nav-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: hsl(353, 82%, 56%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12.5px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.logout-btn {
+  background-color: #fff !important;
+  color: #4b5563 !important;
+  border: 1px solid #d8dce2 !important;
+  padding: 7px 14px !important;
+  font-size: 12.5px !important;
+  margin: 0 !important;
+}
+
+.logout-btn:hover {
+  background-color: #f3f4f7 !important;
+  border-color: #b8bfc9 !important;
+}
+
+@media (max-width: 900px) {
+  .nav-search {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-user-info {
+    display: none;
+  }
+}

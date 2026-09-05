@@ -1,0 +1,38 @@
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.deps.json
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.AssemblyInfoInputs.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.AssemblyInfo.cs
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.csproj.CoreCompileInputs.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\refint\ExpenseApplication.Core.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ref\ExpenseApplication.Core.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.csproj.AssemblyReference.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.deps.json
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.csproj.AssemblyReference.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.AssemblyInfoInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.AssemblyInfo.cs
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.csproj.CoreCompileInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.sourcelink.json
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\refint\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Core\obj\Debug\net8.0\ref\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.deps.json
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.csproj.AssemblyReference.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.AssemblyInfoInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.AssemblyInfo.cs
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.csproj.CoreCompileInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.sourcelink.json
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\refint\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Core\obj\Debug\net8.0\ref\ExpenseApplication.Core.dll

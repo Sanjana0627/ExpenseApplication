@@ -1,0 +1,53 @@
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.deps.json
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.runtimeconfig.json
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.AssemblyInfo.cs
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseA.632240EC.Up2Date
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\refint\ExpenseApplication.Infrastructure.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.genruntimeconfig.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ref\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.deps.json
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.runtimeconfig.json
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.csproj.AssemblyReference.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.AssemblyInfoInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.AssemblyInfo.cs
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.sourcelink.json
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseA.632240EC.Up2Date
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\refint\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.genruntimeconfig.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ref\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.deps.json
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.runtimeconfig.json
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Infrastructure.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.csproj.AssemblyReference.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.AssemblyInfoInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.AssemblyInfo.cs
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.sourcelink.json
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseA.632240EC.Up2Date
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\refint\ExpenseApplication.Infrastructure.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ExpenseApplication.Infrastructure.genruntimeconfig.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Infrastructure\obj\Debug\net8.0\ref\ExpenseApplication.Infrastructure.dll

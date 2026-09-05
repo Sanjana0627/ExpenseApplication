@@ -1,0 +1,47 @@
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.deps.json
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.csproj.AssemblyReference.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.AssemblyInfoInputs.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.AssemblyInfo.cs
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.csproj.CoreCompileInputs.cache
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseA.18D277ED.Up2Date
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\refint\ExpenseApplication.Services.dll
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.pdb
+C:\Users\jagan\source\repos\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ref\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.deps.json
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.csproj.AssemblyReference.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.AssemblyInfoInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.AssemblyInfo.cs
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.csproj.CoreCompileInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.sourcelink.json
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseA.18D277ED.Up2Date
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\refint\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.pdb
+C:\Sanjana\personal doc\Veripark\Project\ExpenseApplication\ExpenseApplication.Services\obj\Debug\net8.0\ref\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.deps.json
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Services.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Core.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\bin\Debug\net8.0\ExpenseApplication.Core.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.csproj.AssemblyReference.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.AssemblyInfoInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.AssemblyInfo.cs
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.csproj.CoreCompileInputs.cache
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.sourcelink.json
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseA.18D277ED.Up2Date
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\refint\ExpenseApplication.Services.dll
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ExpenseApplication.Services.pdb
+C:\Sanjana\personal doc\Veripark\Project\backend\ExpenseApplication.Services\obj\Debug\net8.0\ref\ExpenseApplication.Services.dll

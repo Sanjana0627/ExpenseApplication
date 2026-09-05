@@ -1,0 +1,74 @@
+<div class="page-container page-narrow" *ngIf="form">
+  <button type="button" class="back-link" (click)="goBack()">← Back to Approvals</button>
+
+  <div class="page-header">
+    <div class="page-header-text">
+      <span class="eyebrow">Review</span>
+      <h2>Expense Form #{{ form.formId }}</h2>
+    </div>
+  </div>
+
+  <dl class="review-meta">
+    <div>
+      <dt>Submitted by</dt>
+      <dd>{{ form.employeeName }}</dd>
+    </div>
+    <div>
+      <dt>Status</dt>
+      <dd><span class="status-badge" [ngClass]="'status-' + form.status">{{ form.status }}</span></dd>
+    </div>
+  </dl>
+
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Category</th>
+          <th>Purpose</th>
+          <th>Vendor</th>
+          <th>Payment</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let expense of form.expenses">
+          <td>{{ expense.expenseDate | date: 'mediumDate' }}</td>
+          <td>{{ expense.category }}</td>
+          <td>{{ expense.purpose }}</td>
+          <td>{{ expense.vendorName }}</td>
+          <td>{{ expense.paymentMethod }}</td>
+          <td>{{ expense.amount | appCurrency: form.currencyId }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="total-row">
+    <span class="total-label">Total</span>
+    <span class="total-value">{{ form.totalAmount | appCurrency: form.currencyId }}</span>
+  </div>
+
+  <div *ngIf="form.status === 'PendingApproval'">
+    <div class="actions-row">
+      <button (click)="approve()">Approve</button>
+      <button class="secondary" (click)="openRejectInput()">Reject</button>
+    </div>
+  </div>
+
+  <div class="modal-overlay" *ngIf="showRejectInput" (click)="closeRejectInput()">
+    <div class="modal-dialog" (click)="$event.stopPropagation()">
+      <h3>Reject this expense form</h3>
+      <p class="modal-subtext">Let {{ form.employeeName }} know what needs to change.</p>
+      <label>Reason for rejection</label>
+      <input type="text" [(ngModel)]="rejectReason" placeholder="Explain why this form is being sent back" autofocus />
+      <div class="actions-row align-right">
+        <button class="secondary" (click)="closeRejectInput()">Cancel</button>
+        <button (click)="confirmReject()">Confirm Reject</button>
+      </div>
+    </div>
+  </div>
+
+  <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+</div>

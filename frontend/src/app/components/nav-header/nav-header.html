@@ -1,0 +1,20 @@
+<nav class="nav-bar" *ngIf="authService.isLoggedIn()">
+    <img src="assets/images/veriparklogo.png" alt="VeriPark logo" class="nav-logo">
+
+  <div class="nav-links">
+    <a *ngIf="role === 'Employee'" routerLink="/dashboard" routerLinkActive="active">My Forms</a>
+    <a *ngIf="role === 'Manager'" routerLink="/manager" routerLinkActive="active">Approvals</a>
+    <a *ngIf="role === 'Accountant'" routerLink="/accountant" routerLinkActive="active">Payments</a>
+    <a *ngIf="role === 'Admin'" routerLink="/admin" routerLinkActive="active">Transactions</a>
+    <a *ngIf="role === 'Admin'" routerLink="/admin/reports" routerLinkActive="active">Reports</a>
+  </div>
+
+  <div class="nav-user">
+    <div class="nav-user-info">
+      <span class="nav-user-name">{{ username }}</span>
+      <span class="nav-user-role">{{ role }}</span>
+    </div>
+    <div class="nav-avatar">{{ initials }}</div>
+    <button type="button" class="logout-btn" (click)="logout()">Logout</button>
+  </div>
+</nav>

@@ -1,0 +1,42 @@
+<div class="page-container page-wide">
+  <button type="button" class="back-link" (click)="goBack()">← Back to All Transactions</button>
+
+  <div class="page-header">
+    <div class="page-header-text">
+      <span class="eyebrow">Admin</span>
+      <h2>Reports Dashboard</h2>
+      <p class="subtext">Spend, turnaround and approval trends across the company.</p>
+    </div>
+  </div>
+
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+  <div class="report-grid">
+
+    <div class="report-card">
+      <h3>Status Breakdown</h3>
+      <canvas #statusChart></canvas>
+    </div>
+
+    <div class="report-card">
+      <h3>Monthly Spend Trend</h3>
+      <canvas #monthlyChart></canvas>
+    </div>
+
+    <div class="report-card">
+      <h3>Rejection Rate by Manager</h3>
+      <canvas #rejectionChart></canvas>
+    </div>
+
+    <div class="report-card">
+      <h3>Spend by Category</h3>
+      <canvas #categoryChart></canvas>
+    </div>
+
+    <div class="report-card stat-card">
+      <h3>Average Approval Turnaround</h3>
+      <p class="stat-number" *ngIf="turnaroundHours !== null">{{ turnaroundHours }}h</p>
+      <p class="stat-subtext" *ngIf="turnaroundHours !== null">Based on {{ turnaroundSampleSize }} decisions</p>
+    </div>
+  </div>
+</div>

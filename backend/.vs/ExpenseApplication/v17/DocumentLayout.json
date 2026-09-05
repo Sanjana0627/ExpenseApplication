@@ -1,0 +1,474 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|solutionrelative:expenseapplication.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\enums\\formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\enums\\formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.infrastructure\\repositories\\expenseformrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|solutionrelative:expenseapplication.infrastructure\\repositories\\expenseformrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|solutionrelative:expenseapplication.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|solutionrelative:expenseapplication.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\interfaces\\iexpenseformrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\interfaces\\iexpenseformrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\entities\\expenseformhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\entities\\expenseformhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\entities\\expenseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\entities\\expenseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\entities\\errorlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\entities\\errorlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.core\\entities\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8385F9-6F68-4332-8291-3A88C8C1E8A0}|ExpenseApplication.Core\\ExpenseApplication.Core.csproj|solutionrelative:expenseapplication.core\\entities\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\controllers\\accountantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\controllers\\accountantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\dtos\\createexpenseformrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\dtos\\createexpenseformrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\dtos\\authrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\dtos\\authrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A675CDF-2492-4EE3-B462-F7910B7AAFA8}|ExpenseApplication\\ExpenseApplication.csproj|solutionrelative:expenseapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.infrastructure\\expenseapplication.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|solutionrelative:expenseapplication.infrastructure\\expenseapplication.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5C028F-C801-444C-8EEF-C61F02BAC55A}|ExpenseApplication.Tests\\ExpenseApplication.Tests.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5C028F-C801-444C-8EEF-C61F02BAC55A}|ExpenseApplication.Tests\\ExpenseApplication.Tests.csproj|solutionrelative:expenseapplication.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|c:\\sanjana\\personal doc\\veripark\\project\\backend\\expenseapplication.infrastructure\\migrations\\20260729131151_addexpensedatecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB849DCE-7F3B-4535-ADC2-E76C80C5976C}|ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj|solutionrelative:expenseapplication.infrastructure\\migrations\\20260729131151_addexpensedatecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "ExpenseApplication.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T08:36:39.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormStatus.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Enums\\FormStatus.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Enums\\FormStatus.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Enums\\FormStatus.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Enums\\FormStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T09:15:48.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\User.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T09:28:00.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Entities\\Role.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\Role.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T09:24:43.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ExpenseApplication\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:33:49.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "ExpenseApplication\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T05:00:26.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExpenseFormRepository.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\ExpenseFormRepository.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Infrastructure\\Repositories\\ExpenseFormRepository.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\ExpenseFormRepository.cs",
+              "RelativeToolTip": "ExpenseApplication.Infrastructure\\Repositories\\ExpenseFormRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T12:10:38.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Program.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\Program.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Program.cs",
+              "RelativeToolTip": "ExpenseApplication\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T10:33:20.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T11:16:42.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:16:39.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ExpenseApplication.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:35:32.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "ExpenseApplication.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T12:17:11.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExpenseFormHistory.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\ExpenseFormHistory.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Entities\\ExpenseFormHistory.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\ExpenseFormHistory.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Entities\\ExpenseFormHistory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T09:51:19.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExpenseForm.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\ExpenseForm.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Entities\\ExpenseForm.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\ExpenseForm.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Entities\\ExpenseForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T09:40:14.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Entities\\Expense.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\Expense.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Entities\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T09:48:47.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorLog.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\ErrorLog.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Entities\\ErrorLog.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\ErrorLog.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Entities\\ErrorLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T05:10:19.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\Currency.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Entities\\Currency.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Entities\\Currency.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Entities\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T09:36:29.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IExpenseFormRepository.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Interfaces\\IExpenseFormRepository.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Core\\Interfaces\\IExpenseFormRepository.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Core\\Interfaces\\IExpenseFormRepository.cs",
+              "RelativeToolTip": "ExpenseApplication.Core\\Interfaces\\IExpenseFormRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:13:54.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "ExpenseApplication\\appsettings.json",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\appsettings.json",
+              "RelativeToolTip": "ExpenseApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-27T10:30:06.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountantController.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\AccountantController.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\Controllers\\AccountantController.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\AccountantController.cs",
+              "RelativeToolTip": "ExpenseApplication\\Controllers\\AccountantController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:59:47.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthRequests.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\DTOs\\AuthRequests.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\DTOs\\AuthRequests.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\DTOs\\AuthRequests.cs",
+              "RelativeToolTip": "ExpenseApplication\\DTOs\\AuthRequests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T03:50:16.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "ExpenseApplication\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T06:40:14.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ExpenseApplication\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T10:56:00.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateExpenseFormRequest.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\DTOs\\CreateExpenseFormRequest.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\DTOs\\CreateExpenseFormRequest.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\DTOs\\CreateExpenseFormRequest.cs",
+              "RelativeToolTip": "ExpenseApplication\\DTOs\\CreateExpenseFormRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T10:28:33.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ExpenseApplication\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowEUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T16:32:33.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExpenseApplication.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj",
+              "RelativeToolTip": "ExpenseApplication.Infrastructure\\ExpenseApplication.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-09T02:30:50.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "ExpenseApplication.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T03:06:09.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260729131151_AddExpenseDateColumn.cs",
+              "DocumentMoniker": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Migrations\\20260729131151_AddExpenseDateColumn.cs",
+              "RelativeDocumentMoniker": "ExpenseApplication.Infrastructure\\Migrations\\20260729131151_AddExpenseDateColumn.cs",
+              "ToolTip": "C:\\Sanjana\\personal doc\\Veripark\\Project\\backend\\ExpenseApplication.Infrastructure\\Migrations\\20260729131151_AddExpenseDateColumn.cs",
+              "RelativeToolTip": "ExpenseApplication.Infrastructure\\Migrations\\20260729131151_AddExpenseDateColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T13:11:51.924Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
